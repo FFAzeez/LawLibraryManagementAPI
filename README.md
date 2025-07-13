@@ -1,12 +1,13 @@
 # LawLibraryManagementAPI
 
-A C# DotNet application for library management system and digitalized library storage of books. This service serves as a data integration bridge, handling entities such as books, and users in library to make books available and knowing the number of books for user applications through standardized APIs.
+A C# .NET application for a library management system and digitalized book storage.
+This service acts as a data integration bridge, managing entities such as books and users to ensure availability of books and accurate inventory tracking. It exposes standardized APIs for seamless interaction with user-facing applications.
 
 ## Overview
 
-Zonda-Sync Service is designed to:
+Library Management Service is designed to:
 
-- Synchronize library entities between users
+- Synchronize library entities between users and books
 - Provide standardized, ready-to-use APIs for different applications
 
 ## Core Features
@@ -22,16 +23,20 @@ Zonda-Sync Service is designed to:
 
 
 ### Supported Entities
-- **User** and Books
+-  User and Books
 
 
 ## Technical Stack
 
 - **Framework**: Dotnet 8
-- **Java Version**: c#
+- **Programming Language**: c#
 - **Database**: MSSQL (primary storage)
 - **ORM**: EntityFrame work
 - **Security**: Dotnet Security with JWT authentication
 - **Documentation**: OpenAPI (Swagger)
 - **Libraries**:
   - Automapper
+  - JWT
+  
+## To Run the application
+Replace the connection string with your connection and run the application
